@@ -21,8 +21,14 @@
 .col-15{
     width: 15%;
 }
+.col-25{
+    width: 25%;
+}
 .col-40{
     width: 40%;
+}
+.col-50{
+    width: 50%;
 }
 .col-60{
     width: 60%;
@@ -39,6 +45,10 @@
     vertical-align: middle;
     padding: 10px;
 }
+.f-end{
+    display: flex;
+    justify-content: flex-end;
+}
 button{
     padding: 8px;
     border-radius: 25px;
@@ -50,16 +60,34 @@ button{
 .bg-image{
     background-image: url(../img/jumbo.png);
     background-size: cover;
+   
+}
+.bg-wave{
+    background-image: url(../img/wave.svg);
+    height: 100px;
+    fill: currentColor lightgrey;
+}
+.bg-lightgrey{
+    background-color: lightgrey;
+}
+footer{
+    background-color: darkslategrey;
 }
 /* FONT MODELLING */
 .fc-white{
     color: white;
+}
+.fc-lightblue{
+    color: lightblue;
 }
 .fs-big{
     font-size: 50px;
 }
 .fs-small{
     font-size: 25px;
+}
+.fs-normal{
+    font-size: 40px;
 }
 .text-align{
     text-align: center;
@@ -68,5 +96,12 @@ button{
     margin: 20px 0;
 }
 .margin-y-100{
-    margin: 100px 0;
+    padding: 100px 0;
 }
+.big-img{
+    width: 100%;
+}
+.list-type{
+    list-style-type: none;
+}
+/* footer */
