@@ -55,7 +55,7 @@ button{
 }
 /* BackGround */
 .bg-lightblue{
-    background-color: lightblue;
+    background-color:rgb(20, 96, 247);
 }
 .bg-image{
     background-image: url(../img/jumbo.png);
@@ -103,5 +103,8 @@ footer{
 }
 .list-type{
     list-style-type: none;
+}
+.padding-20{
+    padding: 20px 0;
 }
 /* footer */
