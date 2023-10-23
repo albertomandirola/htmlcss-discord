@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 /* COMMON */
 .container{
     max-width: 1200px;
+}
+.container-sm{
+    max-width: 800px;
 }
 .row{
     width: 100%;
@@ -20,13 +24,16 @@
 .col-70{
     width: 70%;
 }
+.col-100{
+    width: 100%;
+}
 .f-center{
     display: flex;
     justify-content: space-around;
     vertical-align: middle;
     padding: 10px;
 }
-.login{
+button{
     padding: 8px;
     border-radius: 25px;
 }
@@ -34,7 +41,26 @@
 .bg-lightblue{
     background-color: lightblue;
 }
+.bg-image{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
 /* FONT MODELLING */
 .fc-white{
     color: white;
+}
+.fs-big{
+    font-size: 50px;
+}
+.fs-small{
+    font-size: 25px;
+}
+.text-align{
+    text-align: center;
+}
+.margin-y-20{
+    margin: 20px 0;
+}
+.margin-y-100{
+    margin: 100px 0;
 }
