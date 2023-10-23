@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* COMMON */
+.container{
+    max-width: 1200px;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+.margin-container{
+    margin: 0 auto;
+}
+.col-15{
+    width: 15%;
+}
+.col-70{
+    width: 70%;
+}
+.f-center{
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    padding: 10px;
+}
+.login{
+    padding: 8px;
+    border-radius: 25px;
+}
+/* BackGround */
+.bg-lightblue{
+    background-color: lightblue;
+}
+/* FONT MODELLING */
+.fc-white{
+    color: white;
+}
